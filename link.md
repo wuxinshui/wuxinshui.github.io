@@ -18,6 +18,7 @@ menu: Link
 - [lifetragedy的专栏](http://blog.csdn.net/lifetragedy) - 吾以吾血荐我中华之IT
 - [架构师之路16年精选50篇](https://mp.weixin.qq.com/s/OlFKpcnBOgcPZmjvdzCCiA) - 2016精选索引
 - [架构师](http://www.infoq.com/cn/minibooks?utm_source=infoq&utm_medium=breadcrumbs_feature&utm_campaign=breadcrumbs) - 2016精选索引
+- [百亿互金平台救火故事](http://www.ityouknow.com/) - 百亿互金平台救火故事
 
 
 
