@@ -47,7 +47,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: http://wuxinshui.github.io/ # ex. httpdongchuangithubio.disqus.com
+disque: henduoshuo.duoshuo.com/ # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
