@@ -20,7 +20,7 @@ repository: wuxinshui/wuxinshui/wuxinshui.github.io # ex. DONGChuan/DONGChuan.gi
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: http://localhost:4000
+url: http://wuxinshui.github.io/
 
 ## Gem
 gems:
@@ -47,7 +47,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+disque: http://wuxinshui.github.io/ # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
