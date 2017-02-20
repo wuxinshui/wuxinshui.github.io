@@ -68,8 +68,8 @@ navs:
     label: Blog
 
   -
-    href: /bookmark
-    label: Bookmark
+    href: /link
+    label: Link
 
   -
     href: /about
