@@ -17,6 +17,7 @@ github列举了一些使用方法，地址:https://github.com/reficio/soap-ws。
 一般来说，这2个节点的operation是完全一样的。不过通过SOAPUI访问wsdl,获取的是binding节点中的所有operation。如果2个节点的operation都一样获取哪个节点都可以。
 
 ## 1. 获取binding节点的所有operation
+
 看了一下示例代码，
 soap-ws是通过以下的方法获取的operation。
 `SoapOperation operation = builder.operation().soapAction("http://www.webserviceX.NET/ConversionRate").find(); `
@@ -51,6 +52,7 @@ wsdlUrl = "http://www.webxml.com.cn/WebServices/WeatherWebService.asmx?wsdl";
 ```
 
 ### 2. 获取portType节点的所有operation
+
 获取portType节点的operation比较麻烦，soap-ws没有提供直接可以使用的接口。
 不过可以参考soap-ws的源码写一个方法。
 soap-ws提供了一些example。参考例子：
@@ -129,6 +131,7 @@ soap-ws\soap-examples\quickstart\src\test\java\org\reficio\ws\quickstart\SoapCli
 
 
 ### 3. 两种方法比较
+
 测试方法
 
 ```
