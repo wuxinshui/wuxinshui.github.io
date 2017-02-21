@@ -7,9 +7,10 @@ menu: Link
 
 
 ## 个人链接
-- [wuxinshui](http://wuxinshui.github.io/) - 个人独立博客
+- [我的博客](http://wuxinshui.github.io/) - 个人独立博客
 - [CSDN](http://blog.csdn.net/rickyit?viewmode=list) - CSDN个人博客
-- [github](https://github.com/wuxinshui) -  我分享代码的地方
+- [GitHub](https://github.com/wuxinshui) -  我的代码
+- [GitBook](https://www.gitbook.com/@wuxinshui/dashboard) -  我的电子书
 
 
 ## 推荐博客
