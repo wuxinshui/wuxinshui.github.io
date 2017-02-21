@@ -51,7 +51,7 @@ wsdlUrl = "http://www.webxml.com.cn/WebServices/WeatherWebService.asmx?wsdl";
 
 ```
 
-### 2. 获取portType节点的所有operation
+## 2. 获取portType节点的所有operation
 
 获取portType节点的operation比较麻烦，soap-ws没有提供直接可以使用的接口。
 不过可以参考soap-ws的源码写一个方法。
@@ -130,7 +130,7 @@ soap-ws\soap-examples\quickstart\src\test\java\org\reficio\ws\quickstart\SoapCli
 ```
 
 
-### 3. 两种方法比较
+## 3. 两种方法比较
 
 测试方法
 
