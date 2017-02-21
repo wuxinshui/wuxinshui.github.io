@@ -5,6 +5,8 @@ category: Maven
 tags: [Maven]
 ---
 
+此次搭建是在Windows平台上操作的，搭建之前需要先安装JDK。
+
 ## 前言
 
 >Nexus Repository Manager is a Java application that requires a Java Runtime Environment. When you run Nexus Repository Manager, you are running a server application with a web-based user interface. The application itself runs with the Eclipse Jetty servlet container and Apache Karaf OSGi-container.
