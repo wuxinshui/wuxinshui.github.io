@@ -90,3 +90,7 @@ skill_software_keywords: [Java, Python, MySQL, Oracle, Design Patterns]
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
 skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, Redis, Boostrap]
 
+#add read book
+book_reading:[Effective Java 中文版 第2版, Java程序性能优化-让你的Java程序更快、更稳定]
+book_read:[穿布鞋的马云, 软件设计师教程]
+
