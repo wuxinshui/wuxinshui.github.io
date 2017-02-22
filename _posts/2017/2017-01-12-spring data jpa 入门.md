@@ -481,3 +481,9 @@ instances of Customer to be saved to the database.`
 参考：
 [【原创】纯干货，Spring-data-jpa详解，全方位介绍。](http://www.cnblogs.com/dreamroute/p/5173896.html)
 [了解 Spring Data JPA](http://www.cnblogs.com/WangJinYang/p/4257383.html)
+
+---------------------
+
+**作者：Wuxinshui**  
+**出处：[http://wuxinshui.github.io/](http://wuxinshui.github.io/spring/2017/01/12/spring-data-jpa-%E5%85%A5%E9%97%A8.html)**      
+**版权归作者所有，转载请注明出处** 
