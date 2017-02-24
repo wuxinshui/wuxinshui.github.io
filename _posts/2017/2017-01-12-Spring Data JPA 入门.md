@@ -7,7 +7,7 @@ tags: [Spring]
 
 
 
-项目中有用到spring data jpa，简单看了一下，在基础的数据库操作上，要比mybatis好用，简化了持久层的操作，使coder可以专注于业务逻辑的实现。网上参考了一些文章，实际coding的时候还是出好多错误。这里通过CRUD，记录摸索填坑的过程。详细的概念可以参考文末的文章。
+>项目中有用到spring data jpa，简单看了一下，在基础的数据库操作上，要比mybatis好用，简化了持久层的操作，使coder可以专注于业务逻辑的实现。网上参考了一些文章，实际coding的时候还是出好多错误。这里通过CRUD，记录摸索填坑的过程。详细的概念可以参考文末的文章。
 
 ---
 
@@ -479,6 +479,8 @@ instances of Customer to be saved to the database.`
 [【原创】纯干货，Spring-data-jpa详解，全方位介绍。](http://www.cnblogs.com/dreamroute/p/5173896.html)
 [了解 Spring Data JPA](http://www.cnblogs.com/WangJinYang/p/4257383.html)
 
+---
+
 **作者：Wuxinshui**  
-**出处：[http://wuxinshui.github.io/](http://wuxinshui.github.io/spring/2017/01/12/spring-data-jpa-%E5%85%A5%E9%97%A8.html)**      
+**出处：[http://wuxinshui.github.io/](http://wuxinshui.github.io/blog)**      
 **版权归作者所有，转载请注明出处** 
