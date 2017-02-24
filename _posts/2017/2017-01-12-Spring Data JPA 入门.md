@@ -1,6 +1,6 @@
 ---
 layout: post
-title: spring data jpa 入门
+title: Spring Data JPA 入门
 category: spring 
 tags: [spring]
 ---
