@@ -69,26 +69,26 @@
 
         <h2>Book</h2>
 
-        {% if site.book_reading %}
+        {% if site.book_reading_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">Reading Book</h3>
             </div>
             <div class="panel-body">
-                {% for keyword in site.book_reading %}
+                {% for keyword in site.book_reading_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>
         </div>
         {% endif %}
 
-        {% if site.book_read %}
+        {% if site.book_read_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">Read Book</h3>
             </div>
             <div class="panel-body">
-                {% for keyword in site.book_read %}
+                {% for keyword in site.book_read_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>
