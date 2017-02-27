@@ -12,6 +12,8 @@ css: ['sidebar-post-nav.css']
 
             {{ content }}
 
+            <!-- add copyright -->
+            {% include copyright.html %}
             <!-- Comments -->
             <!--{% include disqus-comments.html %}-->
             <!-- Comments -->
@@ -19,24 +21,21 @@ css: ['sidebar-post-nav.css']
 
             <!--google analytics-->
             {% include google-analytics.html %}
-
-            <!-- add copyright -->
-            {% include copyright.html %}
         </div>
         {% else %}
         <div class="col-md-8 markdown-body">
 
             {{ content }}
 
+
+            <!-- add copyright -->
+            {% include copyright.html %}
             <!-- Comments -->
             <!--{% include disqus-comments.html %}-->
             <!-- Comments -->
             {% include duoshuo-comments.html %}
             <!--google analytics-->
             {% include google-analytics.html %}
-
-            <!-- add copyright -->
-            {% include copyright.html %}
         </div>
 
         <div class="col-md-4">
