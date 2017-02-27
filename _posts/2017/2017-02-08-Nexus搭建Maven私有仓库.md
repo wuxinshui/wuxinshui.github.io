@@ -129,9 +129,3 @@ tags: [Maven]
 
 
 更多命令可以参考[官方文档](https://books.sonatype.com/nexus-book/reference3/install.html#installation-archive)。
-
----
-
-**作者：Wuxinshui**  
-**出处：[http://wuxinshui.github.io/](http://wuxinshui.github.io/blog)**      
-**版权归作者所有，转载请注明出处** 

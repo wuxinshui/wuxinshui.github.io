@@ -234,9 +234,3 @@ public class PerfectEquals {
 		System.out.println("compare cost time is :"+(end-start));
 	}
 ```
-
----
-
-**作者：Wuxinshui**  
-**出处：[http://wuxinshui.github.io/](http://wuxinshui.github.io/blog)**      
-**版权归作者所有，转载请注明出处** 
