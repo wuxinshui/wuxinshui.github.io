@@ -21,6 +21,12 @@ menu: Link
 - [架构师](http://www.infoq.com/cn/minibooks?utm_source=infoq&utm_medium=breadcrumbs_feature&utm_campaign=breadcrumbs) - 2016精选索引
 - [百亿互金平台救火故事](http://www.ityouknow.com/) - 百亿互金平台救火故事
 
+## Tips
+
+欢迎打赏
+
+![http://wuxinshui.github.io/](/assets/images/Wechat.png)
+
 
 
  
