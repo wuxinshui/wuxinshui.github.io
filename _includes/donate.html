@@ -1,0 +1,74 @@
+<div class="operate">
+    <ul>
+        <val data-name="isAllowBlogDonate" data-value="true"></val>
+        <!-- 打賞 -->
+        <li class="opr-btn-blog btn-reward-blog ">
+            <a href="javascript:void(0);" data-popupbox-model="reward" class="btn btn-black-blog">
+                <i class="icon-svg icon-reward-blog"></i>
+                <span id="" class="operate_title">
+                                打赏
+                             </span>
+            </a>
+        </li>
+        <!-- 点赞 -->
+        <li class="opr-btn-blog btn-like-blog active">
+            <a href="javascript:void(0);" class="btn btn-black-blog" onclick="page.vote(610825);">
+                <i class="icon-svg icon-thumbs-o-up-blog"></i>
+                <span id="" class="operate_title">已点赞</span>
+            </a>
+        </li>
+        <!-- 收藏 -->
+        <li class="opr-btn-blog btn-favor-blog hover">
+            <a href="javascript:void(0);" class="btn btn-black-blog" data-blogid="610825" data-blogtype="3" data-userid="1188755" data-thispage="https://my.oschina.net/kaywu123/blog/610825">
+                <i class="icon-svg icon-star-blog"></i>
+                <span id="" class="operate_title">收藏</span>
+            </a>
+            <div class="operate-dropdown favor-dropdown">
+                <div class="favor-form">
+                    <form class="favor_blog" action="/action/favorite/add" method="POST">
+                        <input type="hidden" name="id" value="610825">
+                        <input type="hidden" name="type" value="3">
+                        <input type="hidden" name="user" value="1188755">
+                        <input type="text" name="tags" class="favor-input" placeholder="多个标签使用逗号(,)隔开，最多三个">
+                        <div class="tags tags-noborder rec-tags">
+                            <span>推荐标签:</span>
+                            <a href="javascript:void(0);" data-tagname="Spring" class="tag cancelVote">Spring</a>
+                            <a href="javascript:void(0);" data-tagname="java" class="tag cancelVote">java</a>
+                            <a href="javascript:void(0);" data-tagname="待读" class="tag cancelVote">待读</a>
+                        </div>
+                        <div class="btn-group">
+
+                            <input type="submit" value="收藏" class="btn btn-green">
+
+                        </div></form>
+
+
+                </div>                                </div>
+        </li>
+
+        <!-- 分享 -->
+        <li class="opr-btn-blog btn-share-blog hover">
+            <a href="javascript:void(0);" class="btn btn-black-blog">
+                <i class="icon-svg icon-share-o-blog"></i>
+                分享
+            </a>
+            <div class="operate-dropdown share-dropdown">
+                <span class="share-title">分享到：</span>
+                <div class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1488249218856">
+                    <a href="#" class="bds_mshare" data-cmd="mshare" title="分享到一键分享">一键分享</a>
+                    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a>
+                    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a>
+                    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a>
+                    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a>
+                    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友">QQ好友</a>
+                    <a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记">有道云笔记</a>
+                </div>
+                <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["mshare","qzone","tsina","weixin","tqq","sqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/js/bdshare_api/share.js?t=1466497475000'];</script>
+            </div>
+        </li>
+    </ul>
+    <div data-type="tip" data-tip-type="fixed">
+        <div class="tooltips" id="error_tip"></div>
+    </div>
+
+</div>
