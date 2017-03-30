@@ -85,17 +85,17 @@ Spring Boot工程先搞起来，工程目录如下：
 ![这里写图片描述](http://img.blog.csdn.net/20170330150314592?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ### 2.代码实现
-####1.application.properties
+#### 1.application.properties
 `application.properties`中配置存储路径和访问URL
  
  ![这里写图片描述](http://img.blog.csdn.net/20170330154850955?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-####2.资源路径配置
+#### 2.资源路径配置
 把本地的绝对路径加到spring boot的静态资源路径里，作为资源服务器使用。
 
 ![这里写图片描述](http://img.blog.csdn.net/20170330155041395?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-###3.上传处理
+### 3.上传处理
 
 ```
 @Controller
@@ -154,7 +154,7 @@ public class FilesController {
 
 这里参考[基于spring-boot的web应用，ckeditor上传文件图片文件](http://www.cnblogs.com/shihuc/p/5104713.html)实现的。上传也可以集成CKFinder来实现，问题是CKFinder不是开源的软件，对java的支持也停留在`2.6.2.1`，所以上传方法自己写一下了。
 
-###3.上传效果
+### 3.上传效果
 
 ![这里写图片描述](http://img.blog.csdn.net/20170330162102406?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
@@ -166,7 +166,7 @@ public class FilesController {
 
 ![这里写图片描述](http://img.blog.csdn.net/20170330162455521?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-##后台交互
+## 后台交互
 页面上能够显示了，怎么保存到数据库呢？看官网给的解释[Saving Data](http://sdk.ckeditor.com/samples/savetextarea.html)。
 
 ![这里写图片描述](http://img.blog.csdn.net/20170330164308726?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -179,7 +179,7 @@ public class FilesController {
 
 ![这里写图片描述](http://img.blog.csdn.net/20170330164840776?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-##参考
+## 参考
 [基于spring-boot的web应用，ckeditor上传文件图片文件](http://www.cnblogs.com/shihuc/p/5104713.html)
 
 
