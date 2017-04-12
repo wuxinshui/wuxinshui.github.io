@@ -60,9 +60,15 @@ Spring Boot工程先搞起来，工程目录如下：
 ![这里写图片描述](http://img.blog.csdn.net/20170330140123744?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 还有一种最简单的使用方式，直接在textarea的class里面添加CKEditor。只是效果没官网给的好看。
-`   <textarea cols="80" class="ckeditor" id="editor1" name="comments" rows="10">
-	</textarea>`
-	
+
+```html
+<textarea cols="80" class="ckeditor" id="editor1" name="comments" rows="10"> 
+</textarea>
+```
+
+
+
+
 ![这里写图片描述](http://img.blog.csdn.net/20170330145552128?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 接下来就用这种简洁的方式。
@@ -75,7 +81,7 @@ Spring Boot工程先搞起来，工程目录如下：
 ![这里写图片描述](http://img.blog.csdn.net/20170330150225498?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 `config.js`中配置`config.filebrowserImageUploadUrl`。
-	
+​	
 `config.filebrowserImageUploadUrl= '/files/upload/image'`。
 
 `/files/upload/image`这个是后台配置的@RequestMapping里面的值。
@@ -87,7 +93,7 @@ Spring Boot工程先搞起来，工程目录如下：
 ### 2.代码实现
 #### 1.application.properties
 `application.properties`中配置存储路径和访问URL
- 
+
  ![这里写图片描述](http://img.blog.csdn.net/20170330154850955?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 #### 2.资源路径配置
