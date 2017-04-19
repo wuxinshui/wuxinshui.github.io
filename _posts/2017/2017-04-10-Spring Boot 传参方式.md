@@ -4,7 +4,7 @@ title: Spring Boot 传参方式
 category: 编程 
 tags: [编程]
 ---
->第一段必须是描述，作为摘要显示
+>Spring Boot 传参方式汇总。
 
 
 
