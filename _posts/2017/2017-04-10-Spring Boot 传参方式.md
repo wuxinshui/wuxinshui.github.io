@@ -6,8 +6,6 @@ tags: [编程]
 ---
 >Spring Boot 传参方式汇总。
 
-
-
 最近在搞Spring Boot的项目，把传参方式总结一下。网上也参考一些文章，总结的很不错，这里借鉴一下。
 
 ## 注解
@@ -41,12 +39,24 @@ URL中传参
 这个注解是传JSON对象用的，参考[ @RequestBody的正确使用方法](http://blog.csdn.net/li954644351/article/details/51160229)。不能通过Form表单、URL传参。
 
 ![这里写图片描述](http://img.blog.csdn.net/20170419174259147?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-
+ 
 ## Form-data
- 传送form表单数据，可以不用注解，直接传参，参数名字要一样。
+
+### 普通表单
+
+传送form表单数据，可以不用注解，直接传参，参数名字要一样。
 
 ![这里写图片描述](http://img.blog.csdn.net/20170419162649006?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 这种传参方式不能处理JSON参数请求。
 
 ![这里写图片描述](http://img.blog.csdn.net/20170419164335140?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+### 上传文件
+
+![这里写图片描述](http://img.blog.csdn.net/20170419192830169?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+enctype必须设置：
+`{"enctype":"multipart/form-data"}`
+
+![这里写图片描述](http://img.blog.csdn.net/20170419192930904?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
