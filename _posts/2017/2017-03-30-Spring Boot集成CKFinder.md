@@ -216,3 +216,5 @@ ckeditor.access.image.url=http://localhost:8180/public/image/images/
 [CKEditor与CKFinder学习--整合SpringMVC](http://blog.csdn.net/frankcheng5143/article/details/50907013)
 
 [ckeditor和ckfinder集成详细配置及其优化](http://blog.csdn.net/crown_0726/article/details/45127555)
+
+ [源码](https://github.com/wuxinshui/spring-boot-samples/tree/master/spring-boot-sample-ckeditor)

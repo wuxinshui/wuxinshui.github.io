@@ -188,5 +188,4 @@ public class FilesController {
 ## 参考
 [基于spring-boot的web应用，ckeditor上传文件图片文件](http://www.cnblogs.com/shihuc/p/5104713.html)
 
-
-
+ [源码](https://github.com/wuxinshui/spring-boot-samples/tree/master/spring-boot-sample-ckeditor)
