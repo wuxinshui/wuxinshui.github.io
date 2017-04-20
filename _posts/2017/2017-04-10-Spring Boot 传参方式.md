@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Spring Boot 传参方式
-category: 编程 
-tags: [编程]
+category: Spring Boot 
+tags: [Spring Boot]
 ---
 >Spring Boot 传参方式汇总。
 
