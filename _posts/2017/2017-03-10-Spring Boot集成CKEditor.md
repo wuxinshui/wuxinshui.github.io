@@ -185,6 +185,19 @@ public class FilesController {
 
 ![这里写图片描述](http://img.blog.csdn.net/20170330164840776?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
+## 优化
+
+### 1.预览优化
+预览显示一段英文，这个去掉好看些。
+
+`ckeditor/plugins/image/dialogs/image.js`，把`||`后面的那段英文删除。
+
+![这里写图片描述](http://img.blog.csdn.net/20170414171409761?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+![这里写图片描述](http://img.blog.csdn.net/20170414171432612?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+![这里写图片描述](http://img.blog.csdn.net/20170414171458762?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
 ## 参考
 [基于spring-boot的web应用，ckeditor上传文件图片文件](http://www.cnblogs.com/shihuc/p/5104713.html)
 
