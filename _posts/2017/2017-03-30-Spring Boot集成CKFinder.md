@@ -197,18 +197,6 @@ ckeditor.access.image.url=http://localhost:8180/public/image/images/
 
 这样就更好了，CKEditor、CKFinder使用同一个存储路径。
 
-## 2.预览优化
-预览显示一段英文，这个去掉好看些。
-
-`ckeditor/plugins/image/dialogs/image.js`，把`||`后面的那段英文删除。
-
-![这里写图片描述](http://img.blog.csdn.net/20170414171409761?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-
-![这里写图片描述](http://img.blog.csdn.net/20170414171432612?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-
-![这里写图片描述](http://img.blog.csdn.net/20170414171458762?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-
-
 
 后续会在下个博文里对集成CKFinder做一下详细的优化。
 
