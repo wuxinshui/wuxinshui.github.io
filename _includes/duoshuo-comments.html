@@ -1,15 +1,38 @@
-<div id="container"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-    var gitment = new Gitment({
-        id: 'https://github.com/wuxinshui/wuxinshui.github.io/issues/1', // 可选。默认为 location.href
-        owner: '5040102',
-        repo: 'https://github.com/wuxinshui/wuxinshui.github.io',
-        oauth: {
-            client_id: '8c0ef795c6df7a4175ad',
-            client_secret: '8f24ee4fa5e6d763961e94053182be8e46bd30f4',
-        },
-    })
-    gitment.render('container')
-</script>
+<div class="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="http://wuxinshui.github.io{{ page.url }}"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+        var url = "https://github.com/dwilliamson/donw.io/issues/" + {{ $.Params.ghcommentid }}
+        var api_url = "https://api.github.com/repos/dwilliamson/donw.io/issues/" + {{ $.Params.ghcommentid }} + "/comments"
+
+        $(document).ready(function () {
+            $.ajax(api_url, {
+                headers: {Accept: "application/vnd.github.v3.html+json"},
+                dataType: "json",
+                success: function(comments) {
+                    $("#gh-comments-list").append("Visit the <b><a href='" + url + "'>Github Issue</a></b> to comment on this post");
+                    $.each(comments, function(i, comment) {
+
+                        var date = new Date(comment.created_at);
+
+                        var t = "<div id='gh-comment'>";
+                        t += "<img src='" + comment.user.avatar_url + "' width='24px'>";
+                        t += "<b><a href='" + comment.user.html_url + "'>" + comment.user.login + "</a></b>";
+                        t += " posted at ";
+                        t += "<em>" + date.toUTCString() + "</em>";
+                        t += "<div id='gh-comment-hr'></div>";
+                        t += comment.body_html;
+                        t += "</div>";
+                        $("#gh-comments-list").append(t);
+                    });
+                },
+                error: function() {
+                    $("#gh-comments-list").append("Comments are not open for this post yet.");
+                }
+            });
+        });
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
