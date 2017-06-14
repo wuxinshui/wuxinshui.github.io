@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2017-05-31-Docker：启动Redis镜像
+title: Docker：启动Redis镜像
 category: 编程 
 tags: [编程]
 ---
