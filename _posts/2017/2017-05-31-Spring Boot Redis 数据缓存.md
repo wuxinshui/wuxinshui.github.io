@@ -105,18 +105,18 @@ public class RedisCacheConfig extends CachingConfigurerSupport {
 
 ## 测试
 
-1. PostMan发起请求
+#### 1. PostMan发起请求
 
 ![这里写图片描述](http://img.blog.csdn.net/20170614144719384?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-2. 后台接受请求
+#### 2. 后台接受请求
 
 ![这里写图片描述](http://img.blog.csdn.net/20170614144737743?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ![这里写图片描述](http://img.blog.csdn.net/20170614144806665?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-3. 返回值
+#### 3. 响应
 
 ![这里写图片描述](http://img.blog.csdn.net/20170614145315776?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-4. 缓存
+#### 4. 缓存
 
 使用RedisDesktopManager 查看缓存的结果。
 
@@ -126,7 +126,3 @@ public class RedisCacheConfig extends CachingConfigurerSupport {
 
 ![这里写图片描述](http://img.blog.csdn.net/20170614145432992?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-
-
-
-## 参考
