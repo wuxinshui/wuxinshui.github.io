@@ -4,7 +4,7 @@ title: Spring Boot集成Spring Data Jpa
 category: Spring Boot 
 tags: [Spring Boot]
 ---
->第一段必须是描述，作为摘要显示
+>Spring Boot 使用Jpa，很简单，也很方便，这里简单介绍一下。
 
 
 
