@@ -126,3 +126,6 @@ public class RedisCacheConfig extends CachingConfigurerSupport {
 
 ![这里写图片描述](http://img.blog.csdn.net/20170614145432992?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
+## 参考
+[Cache Abstraction](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/cache.html)
+[Caching Data with Spring](https://spring.io/guides/gs/caching/)
