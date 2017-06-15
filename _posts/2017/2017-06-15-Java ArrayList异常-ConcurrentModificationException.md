@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java ArrayLsit异常-ConcurrentModificationException
+title: Java ArrayList异常-ConcurrentModificationException
 category: 编程 
 tags: [编程]
 ---
