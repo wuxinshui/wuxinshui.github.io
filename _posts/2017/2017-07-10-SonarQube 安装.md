@@ -5,6 +5,7 @@ category: 编程
 tags: [编程]
 ---
 
+
 >SonarQube® software (previously called Sonar) is an open source quality management platform, dedicated to continuously analyze and measure technical quality, from project portfolio to method.
 
 ## 简介
@@ -55,6 +56,8 @@ SonarQube是有些默认配置的，可以根据实际需要配置。
 
 ## 使用
 
+### 访问
+
 浏览器访问：http://localhost:9000 。IP和端口可以在`sonar.properties`文件中配置的。默认的是 http://localhost:9000。
 
 第一次访问会有点慢，服务需要创建大量的表。
@@ -65,8 +68,23 @@ SonarQube是有些默认配置的，可以根据实际需要配置。
 
 ![这里写图片描述](http://img.blog.csdn.net/20170710181931594?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
+### 登录
 
+第一次登录不知道密码，怎么办呢？搜一下官方文档
 
+![这里写图片描述](http://img.blog.csdn.net/20170711183521020?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+原来默认的用户名和密码都是`admin`。
+
+我们来看看数据库
+
+![这里写图片描述](http://img.blog.csdn.net/20170711183623606?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+数据库是把密码给加密了。。。
+
+![这里写图片描述](http://img.blog.csdn.net/20170711184314021?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUmlja3lJVA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+登录成功。
 
 ## 参考
 
