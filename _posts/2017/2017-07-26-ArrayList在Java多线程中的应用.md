@@ -1,3 +1,10 @@
+---
+layout: post
+title: ArrayList在Java多线程中的应用
+category: 并发 
+tags: [并发]
+---
+
 
 >ArrayList是非线程安全的。
 
