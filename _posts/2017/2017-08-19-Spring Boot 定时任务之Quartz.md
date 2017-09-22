@@ -5,20 +5,28 @@ category: Spring Boot
 tags: [Spring Boot]
 ---
 
-
 >Quartz is a richly featured, open source job scheduling library that can be integrated within virtually any Java application。
 
 ## 前言
 
 当定时任务愈加复杂时，使用Spring注解[@Schedule](http://blog.csdn.net/rickyit/article/details/77284064)已经不能满足业务需要。
-`@Schedule`实现的定时任务：
+`Quartz`的优点：
 
- - 不能动态管理任务；
- - Job信息不能持久化到数据库；
- - Job执行失败的时候不能保持数据一致性；
- - 不支持集群分布式部署。
+- 	丰富的Job操作API；
+- 	支持多种配置；
+- 	Spring Boot无缝集成；
+- 	支持持久化；
+- 	支持集群。
 
-Quartz能够完全满足上述需求，而且还支持开源。Quartz是一个功能丰富的开源作业调度库，可以集成到几乎任何Java应用程序中。
+Quartz还支持开源，是一个功能丰富的开源作业调度库，可以集成到几乎任何Java应用程序中。
+
+## 核心概念
+
+- Job接口，实现类写具体的业务逻辑。
+- JobDetail 封装Job详细信息，如Job分组、名称、执行Job的类。
+- Trigger 触发器，记录触发器分组、名称、定时表达式。
+- CronExpression 定时表达式，封装在Trigger中。
+- Schedule 调度器。Schedule动态操作Job。如新增、更新、暂停、启动、删除、立即执行等。JobDetail 、Trigger 需要注册到Schedule中。
 
 ## 集成
 
@@ -83,4 +91,6 @@ public class JobTest implements Job {
 
 ## 参照
 [quartz-scheduler](http://www.quartz-scheduler.org/)
+
+
 
