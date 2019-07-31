@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Wuxinshui
 subtitle:
 description:
 keywords:
-author: John Doe
+author: Wuxinshui
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://wuxinshui.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

@@ -58,7 +58,7 @@ wsdlUrl = "http://www.webxml.com.cn/WebServices/WeatherWebService.asmx?wsdl";
 soap-ws提供了一些example。参考例子：
 soap-ws\soap-examples\quickstart\src\test\java\org\reficio\ws\quickstart\SoapClientExamplesTest.java
 在IntelliJ IDEA中debug，eclipse中看起来不舒服。
-![这里写图片描述](http://img.blog.csdn.net/20160701111457643)
+![这里写图片描述](https://img.blog.csdn.net/20160701111457643)
 
 可以看到在wsdl的私有成员soapFacade中有portType节点，binding节点信息。这些信息最终是定义在messageBuilder的私有变量definition中的，按照这个路径查看源代码。查看SoapMessageBuilder的构造方法。
 
