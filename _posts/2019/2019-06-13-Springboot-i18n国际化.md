@@ -1,8 +1,8 @@
 ---
 layout: post
 title: SpringBoot-i18n国际化
-category: Spring-Boot 
-tags: [Spring-Boot]
+category: Spring Boot 
+tags: [Spring Boot]
 ---
 
 >In computing, internationalization and localization are means of adapting computer software to different languages, regional peculiarities and technical requirements of a target locale.
