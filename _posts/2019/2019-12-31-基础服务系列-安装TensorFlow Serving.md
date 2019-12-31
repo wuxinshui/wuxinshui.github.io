@@ -62,3 +62,7 @@ No versions of servable half_plus_two found under base path /models/half_plus_tw
 
 ![](https://oscimg.oschina.net/oscnet/up-8d9f27e53c1bf3984c041ab4c45c0cf0571.png)
 
+
+## 参考
+
+[Serve a Tensorflow model in 60 seconds](https://github.com/tensorflow/serving)
