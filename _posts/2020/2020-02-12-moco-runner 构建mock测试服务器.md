@@ -2,7 +2,7 @@
 layout: post
 title: moco-runner 构建mock测试服务器
 category: Mysql 
-tags: [Mysql]
+tags: [测试]
 ---
 
 >Moco is an easy setup stub framework.
